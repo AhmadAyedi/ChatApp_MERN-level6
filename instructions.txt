@@ -1,0 +1,45 @@
+mongosh (mongoshell): password=ayedimongosh
+
+mongodb atlas:
+    username: mernchat-yt-user
+    password: mernchatapp123
+
+
+to run our website
+    backend>npm run dev
+    frontend>npm start
+
+to add a new account you must go to ansominia and choose http req then post 
+method then body json then add :
+name 
+email 
+password
+picture
+
+
+
+you will send post request on this url: http://localhost:5001/users
+
+and the body is json exp:
+{
+	"name":"amina",
+	"email":"amina@gmail.com",
+	"password":"amina123",
+	"picture":"https://media.istockphoto.com/id/1185028107/photo/young-laughing-woman-standing-with-hands-in-pockets-wearing-blank-white-t-shirt-with-copy.jpg?s=612x612&w=0&k=20&c=u32Y6c-VfpL5HOdoRs2WLwp9zFDbGRo4inuRRdnnHKU="
+	
+}
+
+
+
+
+
+the link to connect to mongodb atlas and to mongo compass change every time we
+change the router (the ip adress changes)
+so connect mongodb atlas to the new ip adress everytime you change the router
+then take the new link to connection.js and the other link to mongodb compass
+
+
+
+if the admin(who has access to mongodb database) do not add you to the contact
+ using ansominia or update your credentials using ansominia or mongodb compass
+then you cannot login
